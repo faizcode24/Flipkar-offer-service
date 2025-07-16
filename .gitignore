@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+docker-compose.override.yml
+
+# Coverage and test output
+coverage/
+.nyc_output/
+test-results/
+
+# Optional IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Dist or build folders
+dist/
+build/
